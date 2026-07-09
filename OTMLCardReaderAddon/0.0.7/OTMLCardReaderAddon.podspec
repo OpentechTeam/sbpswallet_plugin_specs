@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'OTMLCardReaderAddon'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = 'OTMLCardReaderAddon'
   s.description      = <<-DESC
   OTMLCardReaderAddon includes CardIO reader component and dependencies
@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
   s.frameworks = 'MobileCoreServices', 'Accelerate'
 
   s.static_framework = true
-  s.dependency 'OTHFOTML','0.0.6'
-  s.dependency 'OTHFOTMLModels', '0.0.6'
-  s.dependency 'OTHFOTMLCore', '0.0.6'
+  s.dependency 'OTHFOTML','0.0.7'
+  s.dependency 'OTHFOTMLModels', '0.0.7'
+  s.dependency 'OTHFOTMLCore', '0.0.7'
   s.dependency 'GoogleMLKit/TextRecognition'
 
 end
