@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OTBarCodeAddon'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'OTBarCodeAddon.'
 
 # This description is used to generate tags and improve search results.
@@ -29,16 +29,16 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'FULL', :file => 'LICENSE' }
   s.author           = { 'opentech ios team' => 'ios@opentech.com' }
   
-  s.source           = { :git => 'https://github.com/OpentechTeam/sbpswallet_plugin_specs.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/OpentechTeam/sbpswallet_plugin_artifacts.git', :tag => s.version.to_s }
   s.pod_target_xcconfig = { "OTHER_LDFLAGS" => "-ObjC", 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES', 'CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF' => 'NO', 'GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS' => 'NO'}
   
   s.ios.vendored_frameworks = 'OTBarCodeAddon.xcframework'
 
   s.ios.deployment_target = '15.0'
 
-  s.dependency 'OTHFOTTBXML', '0.0.5'
-  s.dependency 'OTHFOTML', '0.0.5'
-  s.dependency 'OTHFOTMLModels', '0.0.5'
+  s.dependency 'OTHFOTTBXML', '0.0.6'
+  s.dependency 'OTHFOTML', '0.0.6'
+  s.dependency 'OTHFOTMLModels', '0.0.6'
   s.dependency 'ZXingObjC', '3.6.9'
 
 end
